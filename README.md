@@ -2,7 +2,7 @@
 
 ## Linear Regression to Predict MPG
 
-![Image 1](Deliverable 1.png) shows the formula and output for formula to predict MPB.  Looking at the formula intercept, vehicle length and ground clearance provide the non-random amount of variance to the MPG values in the dataset.  
+[Image 1](Deliverable_1.png) shows the formula and output for formula to predict MPB.  Looking at the formula intercept, vehicle length and ground clearance provide the non-random amount of variance to the MPG values in the dataset.  
 
 The slope of the model is not considered to be zero as the p-value is 5.35e-11 and is a lot lower than then 0.05.  Therefore, there is significant evidence to reject the null hypothesis.  This reinstates that the slope of the line is not zero.
 
@@ -15,6 +15,7 @@ The Multiple R-squared values of the equation is 0.7149.  Which indicates that o
 ## T-Tests on Suspension Coils
 
 ![Image 4](Deliverable_3a.png) shows that according to the one sample t test.   At 95% confidence interval and a p-value of 0.06028 we do not have enough evidence to reject the null hypothesis.
+
 ![Image 5](Deliverable_3b.png) shows the one sample t-test for lot1, which shows the p-value of 1 indicating that we fail to reject the null hypothesis.  Similarly, according to ![Image 6](Deliverable_3c.png) for lot2, with a p-value of 0.6072.  This indicates that the ![Image 7](Deliverable_3d.png) for lot 3 with a p-value of 0.04168 indicates that it is lower than 0.05 therefore, we have evidence to suggest that we can reject the null hypothesis.
 
 
