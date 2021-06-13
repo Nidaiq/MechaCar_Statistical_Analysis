@@ -22,3 +22,13 @@ Similarly, according to [Image 6](Deliverable_3c.png) for lot2, with a p-value o
 
 
 ## Study Design: MechaCar vs. Competition
+
+There are numerous factors that are important to consumers while buying a car.  For an average customer, cost is always the primary factor which includes the initial cost of buying a car and the city and highway fuel efficiency and maintenance cost which would indicate the ongoing cost associated with the car.  Another trend that is following these days is that consumers want a futuristic car.  According to [Automotiveworld](https://www.automotiveworld.com/articles/what-do-consumers-want-from-the-car-of-the-future/) consumers are looking for cars with enhanced technology such as self-driving cars.
+
+As the technology is constantly evolving and may require time to develop for MechaCar, we would run two separate analysis.  We will assume that that initial cost of buying the car is the same for MechaCar and the competitor we are comparing the car to.  We will look at the cost of maintaining  the car which can add up for the consumer later.  Our null hypothesis would be that cost of maintaining the MechaCar is not different then cost of maintaining the competitor car.  The alternative hypothesis is that the cost of maintenance is different.  A two-sample t-test to find out if there is a statistical difference in between the distribution means from the two samples.  To perform this test, we would need the data for maintenance for both MechaCar and the competitor car as well.
+
+For the second test we will run could compare a few high-tech aspects that we can add to our MechaCar, such as, the car’s ability to break when detecting collision.  For this we can check the response time of MechaCar when detecting front end collision and response time of the competitor car when it comes to front end collision.  The second parameter can also be response time of both time cars before they automatically break when it comes to front end collision.   Our null hypothesis can be that both cars have the same response time when detecting collision and automatically break and our alternative hypothesis can be that the response times are different. An ANOVA test can also be run for both parameter to check the difference.
+
+### Reference
+What do consumers want from the car of the future?. Automotiveworld.  2021.  Taken from: https://www.automotiveworld.com/articles/what-do-consumers-want-from-the-car-of-the-future/.
+
